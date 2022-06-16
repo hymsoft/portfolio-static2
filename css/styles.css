@@ -136,6 +136,7 @@
   background-position: center;
   transition: all 0.1s ease-in-out;
   background-image: url("../img/banner1.png");
+  animation: banner 28s infinite linear;
 }
 
 .banner__content {
@@ -166,6 +167,33 @@
   position: absolute;
   bottom: 3%;
   right: 3%;
+}
+
+@keyframes banner {
+  0% {
+    background-image: url("../img/banner1.png");
+  }
+  25% {
+    background-image: url("../img/banner1.png");
+  }
+  26% {
+    background-image: url("../img/banner2.png");
+  }
+  50% {
+    background-image: url("../img/banner2.png");
+  }
+  51% {
+    background-image: url("../img/banner3.png");
+  }
+  75% {
+    background-image: url("../img/banner3.png");
+  }
+  76% {
+    background-image: url("../img/banner4.png");
+  }
+  100% {
+    background-image: url("../img/banner4.png");
+  }
 }
 
 /* Banner End */
