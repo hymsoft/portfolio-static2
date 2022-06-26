@@ -234,7 +234,12 @@
   /* text-align: center; */
   padding-bottom: 40px;
 }
+
+.card-subtitle {
+  color: #abb1ae !important;
+}
 /* Experiencia End */
+
 /* Educacion Start */
 .educacion {
   min-height: calc(100vh - var(--header-height));
